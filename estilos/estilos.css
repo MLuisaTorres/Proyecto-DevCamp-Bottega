@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #191a1e;
+}
+
+.encabezado {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+.encabezado > .logo img {
+    height: 52px;
+    color: white;
+    margin-left: 20px;
+}
+
+.encabezado > .logo {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-derecha {
+    display: flex;
+    align-items: center;
+}
+
+.navbar>.nav-link {
+    margin-right: 16px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > .nav-link a {
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.navbar > .desplegable {
+    margin-left: 16px;
+    background-color: black;
+    color: #adadad;
+    border: 0px;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.columna-izquierda p {
+    color: #f4e084;
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+.columna-derecha {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.search i {
+    font-size: 2em;
+    color: #7b7e8b;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: #36383f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.columna-derecha > .contenedor-estilo > .desplegable  {
+    width: 200;
+    background-color: #36383e;
+    padding: 16px 32px;
+    align-content: center;
+    color: white;
+    border: 20px;
+    border-color: rgb(65,65,65);
+    font-size: 1.7em;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.seccion-central {
+    height: 647px;
+    display:grid;
+    grid-template-columns: 1.1fr 1fr;
+    background-color: rgb(45,48,55);
+    box-shadow: inset -15px 15px 60px -3px #434750;
+}
+
+.seccion-central > .contenedor-izquierdo {
+    margin-left: 91px;
+    margin-right: 91px;
+}
+
+.seccion-central > .contenedor-izquierdo > .contenedor-texto > .texto1 p {
+    color: white;
+    font-size: 2.6em;
+}
+
+.seccion-central>.contenedor-izquierdo>.contenedor-texto>.texto2 p {
+    color: #b3b3b3;
+    font-size: 2.2em;
+}
+
+.seccion-central > .contenedor-izquierdo > .contenedor-texto > .texto1 span {
+    color: #fafafa;
+    font-weight: 900;
+}
+
+.seccion-central > .contenedor-izquierdo > .contenedor-boton {
+    display: flex;
+}
+
+.button2 {
+    background-color: #4bcd78;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: #111111;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.seccion-central > .contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-central > .contenedor-imagen > .imagen img {
+    height:590px;
+    width: 100%;
+}
+
+.seccion-central > .contenedor-imagen > .text {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.seccion-central > .contenedor-imagen > .text span {
+    color: #78dbf6;
+}
+
+.pie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 100px;
+    background-color: #36383f;
+}
+
+.pie > .texto-pie {
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid #676767;
+}
+
+.pie > .texto-pie p {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.pie > .texto-pie span{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
